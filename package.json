@@ -1,0 +1,28 @@
+{
+  "name": "bate-ponto-bot",
+  "version": "1.0.0",
+  "description": "Bot profissional de bate ponto para GTA RP",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "gta-rp",
+    "bate-ponto",
+    "discord-bot",
+    "railway"
+  ],
+  "author": "Gabriel",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "sqlite3": "^6.0.1"
+  }
+}
